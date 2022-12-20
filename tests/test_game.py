@@ -35,4 +35,5 @@ class TestGame:
         """A word that is not in the english directory should no be valid"""
         new_game = Game()
         new_game.grid = list('KWIENFUQW') # Force the grid to a test case:
-        assert new_game.is_valid('FEUN') is False
+        assert new_game.is_valid('FEUN') is False # not real word
+        assert new_game.is_valid("FUN") # real word
