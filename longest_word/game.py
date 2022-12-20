@@ -1,6 +1,7 @@
 # pylint: disable=missing-docstring
 # pylint: disable=too-few-public-methods
 
+
 from string import ascii_uppercase
 import random
 
